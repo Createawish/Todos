@@ -1,0 +1,25 @@
+.header{
+    background-image: url("../assets/img/bg-desktop-dark.jpg");
+    width: 1440px;
+    height: 300px;
+    position: relative;
+    }
+@media screen and (max-width:375px){
+.header{
+   background-image: url("../assets/img/bg-mobile-dark.jpg");
+    width: 375px;
+    height: 200px;
+}
+}
+
+.text{
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+    margin: auto;
+    position: absolute;
+    top: 8rem;
+    left: 30rem;
+
+
+}

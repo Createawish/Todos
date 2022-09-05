@@ -1,5 +1,6 @@
 import {addTodo} from "../store2/todos/todos-actions";
 import {useDispatch} from 'react-redux'
+import style from './NewTodo.module.css'
 
 const NewTodo = () => {
     const dispatch = useDispatch();
@@ -11,9 +12,9 @@ const NewTodo = () => {
     };
 
     return (
-        <form onSubmit={handleSubmit}>
-            <input type="text" name="title" placeholder="new todo" />
-            <input type="submit" value="Add Todo" />
+        <form onSubmit={handleSubmit} className={style.form}>
+            <input type="text" name="title" placeholder="Create a new todo" className={style.input} />
+            <input type="submit" value="Add Todo" className={style.btn} />
         </form>
     );
 };

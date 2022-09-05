@@ -6,11 +6,13 @@ import "./index.css";
 import NewTodo from "./components/NewTodo";
 import TodoList from "./components/TodoList";
 import Filter from "./components/Filter";
+import React from "react";
+import Header from "./components/Header";
 
 export default function App() {
   return (
-    <div className="App">
-      <h1>Hello Redux Todo</h1>
+    <div>
+        <Header/>
       <NewTodo />
       <TodoList />
       <Filter/>

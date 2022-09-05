@@ -1,0 +1,24 @@
+.form{
+    position: relative;
+    margin: auto;
+    top:-5rem;
+}
+.input{
+    height: 2.8rem;
+    width: 20rem;
+    background-color: hsl(237, 14%, 26%);
+    border: none;
+}
+.input::placeholder{
+    color: hsl(234, 11%, 52%);
+    padding-left: 18px;
+}
+.btn{
+    margin-left: 8px;
+    background-color: hsl(237, 14%, 26%);
+    border: none;
+    height: 2.8rem;
+}
+.btn::-ms-value{
+    color: hsl(236, 33%, 92%);
+}
